@@ -1,0 +1,27 @@
+# Dependencies
+node_modules
+
+# Production build
+build
+
+# Docusaurus generated files
+.docusaurus
+.cache-loader
+
+# Git
+.git
+
+# Docker files
+Dockerfile*
+docker-compose*
+
+# Documentation
+README.md
+CHANGELOG.md
+
+# IDE
+.vscode
+.idea
+
+# OS
+.DS_Store
