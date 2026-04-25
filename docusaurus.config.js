@@ -9,7 +9,7 @@ const config = {
 
   // GitHub Pages 設定：請修改為你的 GitHub 使用者名稱與儲存庫名稱
   url: 'https://arthurpk1209.github.io',
-  baseUrl: '/netfos-arcfra-hub/',
+  baseUrl: '/netofs-arcfra-hub/',
 
   // GitHub Pages 必要設定
   organizationName: 'arthurpk1209',
@@ -46,7 +46,7 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          editUrl: 'https://github.com/your-github-username/netfos-arcfra-hub/tree/main/',
+          editUrl: 'https://github.com/arthurpk1209/netfos-arcfra-hub/tree/main/',
         },
         blog: {
           showReadingTime: true,
@@ -54,7 +54,7 @@ const config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          editUrl: 'https://github.com/your-github-username/netfos-arcfra-hub/tree/main/',
+          editUrl: 'https://github.com/arthurpk1209/netfos-arcfra-hub/tree/main/',
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
@@ -90,7 +90,7 @@ const config = {
             position: 'left',
           },
           {
-            href: 'https://github.com/your-github-username/netfos-arcfra-hub',
+            href: 'https://github.com/arthurpk1209/netfos-arcfra-hub',
             label: 'GitHub',
             position: 'right',
           },
@@ -109,7 +109,7 @@ const config = {
           {
             title: '社群',
             items: [
-              {label: 'GitHub', href: 'https://github.com/your-github-username/netfos-arcfra-hub'},
+              {label: 'GitHub', href: 'https://github.com/arthurpk1209/netfos-arcfra-hub'},
             ],
           },
           {
