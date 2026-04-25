@@ -1,0 +1,22 @@
+{
+  "title": {
+    "message": "Netfos Arcfra Hub",
+    "description": "The title in the navbar"
+  },
+  "item.label.文件": {
+    "message": "Docs",
+    "description": "Navbar item with label 文件"
+  },
+  "item.label.部落格": {
+    "message": "Blog",
+    "description": "Navbar item with label 部落格"
+  },
+  "item.label.部署指南": {
+    "message": "Deployment Guide",
+    "description": "Navbar item with label 部署指南"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  }
+}

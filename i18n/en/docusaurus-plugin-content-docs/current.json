@@ -1,0 +1,14 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.文件": {
+    "message": "Docs",
+    "description": "The label for category 文件 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.文件.link.generated-index.description": {
+    "message": "Netfos Arcfra Hub Documentation",
+    "description": "The generated-index page description for category 文件 in sidebar tutorialSidebar"
+  }
+}

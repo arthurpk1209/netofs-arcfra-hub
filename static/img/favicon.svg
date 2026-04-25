@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="100%" height="100%">
+  <defs>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3478b8" />
+      <stop offset="100%" stop-color="#183c61" />
+    </linearGradient>
+    <linearGradient id="redGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ef2b32" />
+      <stop offset="100%" stop-color="#9d141b" />
+    </linearGradient>
+  </defs>
+
+  <circle cx="128" cy="128" r="100" fill="none" stroke="#12253a" stroke-width="12" />
+
+  <g transform="translate(0, 10)">
+      <path d="M 80 170 L 110 80 C 120 50 160 50 170 80 C 180 110 140 140 128 150" 
+            fill="none" stroke="url(#blueGrad)" stroke-width="16" 
+            stroke-linecap="round" stroke-linejoin="round" />
+
+      <path d="M 176 170 L 140 80 C 130 50 85 60 80 90 C 75 120 120 140 145 155" 
+            fill="none" stroke="url(#redGrad)" stroke-width="16" 
+            stroke-linecap="round" stroke-linejoin="round" />
+
+      <path d="M 80 170 L 102 104" 
+            fill="none" stroke="url(#blueGrad)" stroke-width="16" 
+            stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+</svg>
