@@ -9,7 +9,7 @@ const config = {
 
   // GitHub Pages 設定：請修改為你的 GitHub 使用者名稱與儲存庫名稱
   url: 'https://arthurpk1209.github.io',
-  baseUrl: '/netofs-arcfra-hub/',
+  baseUrl: '/',
 
   // GitHub Pages 必要設定
   organizationName: 'arthurpk1209',
