@@ -7,6 +7,18 @@ services:
     ports:
       - "3000:3000"
     volumes:
+      # 掛載原始碼（排除 node_modules）
       - .:/opt/docusaurus
+      # 使用命名卷保存 node_modules（避免被本地舊版本覆蓋）
+      - node_modules:/opt/docusaurus/node_modules
+      - build:/opt/docusaurus/build
     environment:
       - NODE_ENV=development
+      - DOCS_LOCALE=zh-Hant  # 繁體中文（預設）
+    # 確保每次啟動都重新安裝依賴
+    command: >
+      sh -c "npm install && npm run start -- --host 0.0.0.0 --poll 1000 --locale $${DOCS_LOCALE}"
+
+volumes:
+  node_modules:
+  build:

@@ -1,6 +1,7 @@
 # syntax=docker/dockerfile:1
 # ============================================================
 # Dockerfile for Docusaurus 3.10.0 — 本地開發用
+# 支援多語言：繁體中文 (zh-Hant) 與英文 (en)
 # 參考: https://docusaurus.community/knowledge/deployment/docker/
 # ============================================================
 
@@ -14,4 +15,9 @@ WORKDIR /opt/docusaurus
 FROM base AS dev
 WORKDIR /opt/docusaurus
 EXPOSE 3000
-CMD [ -d "node_modules" ] && npm run start -- --poll 1000 || npm install && npm run start -- --poll 1000
+
+# 透過環境變數 DOCS_LOCALE 切換語言（預設 zh-Hant）
+ENV DOCS_LOCALE=zh-Hant
+
+# 安裝依賴並啟動開發伺服器
+CMD ["sh", "-c", "npm install && npm run start -- --host 0.0.0.0 --poll 1000 --locale ${DOCS_LOCALE}"]

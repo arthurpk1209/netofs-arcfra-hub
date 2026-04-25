@@ -4,15 +4,12 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Netfos Arcfra Hub',
-  tagline: 'Fighting',
+  tagline: '雲端原生架構 · AI 賦能 · 容器化部署',
   favicon: 'img/favicon.ico',
 
-  // GitHub Pages 設定：請修改為你的 GitHub 使用者名稱與儲存庫名稱
-  url: 'https://arthurpk1209.github.io',
-  baseUrl: '/',
-
-  // GitHub Pages 必要設定
-  organizationName: 'arthurpk1209',
+  url: 'https://your-github-username.github.io',
+  baseUrl: '/netfos-arcfra-hub/',
+  organizationName: 'your-github-username',
   projectName: 'netfos-arcfra-hub',
   deploymentBranch: 'gh-pages',
   trailingSlash: true,
@@ -21,13 +18,20 @@ const config = {
   onBrokenAnchors: 'warn',
   onDuplicateRoutes: 'warn',
 
+  // i18n 國際化設定
   i18n: {
     defaultLocale: 'zh-Hant',
-    locales: ['zh-Hant'],
+    locales: ['zh-Hant', 'en'],
     localeConfigs: {
       'zh-Hant': {
         label: '繁體中文',
         htmlLang: 'zh-Hant',
+        direction: 'ltr',
+      },
+      'en': {
+        label: 'English',
+        htmlLang: 'en',
+        direction: 'ltr',
       },
     },
   },
@@ -39,6 +43,18 @@ const config = {
     faster: true,
   },
 
+  themes: [
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      {
+        hashed: true,
+        language: ["zh", "en"],
+        highlightSearchTermsOnTargetPage: true,
+        explicitSearchResultPath: true,
+      },
+    ],
+  ],
+
   presets: [
     [
       'classic',
@@ -46,7 +62,7 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          editUrl: 'https://github.com/arthurpk1209/netfos-arcfra-hub/tree/main/',
+          editUrl: 'https://github.com/your-github-username/netfos-arcfra-hub/tree/main/',
         },
         blog: {
           showReadingTime: true,
@@ -54,7 +70,7 @@ const config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          editUrl: 'https://github.com/arthurpk1209/netfos-arcfra-hub/tree/main/',
+          editUrl: 'https://github.com/your-github-username/netfos-arcfra-hub/tree/main/',
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
@@ -69,6 +85,12 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      colorMode: {
+        defaultMode: 'dark',
+        disableSwitch: false,
+        respectPrefersColorScheme: true,
+      },
+
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'Netfos Arcfra Hub',
@@ -89,8 +111,13 @@ const config = {
             label: '部署指南',
             position: 'left',
           },
+          // 語言切換下拉選單
           {
-            href: 'https://github.com/arthurpk1209/netfos-arcfra-hub',
+            type: 'localeDropdown',
+            position: 'right',
+          },
+          {
+            href: 'https://github.com/your-github-username/netfos-arcfra-hub',
             label: 'GitHub',
             position: 'right',
           },
@@ -109,7 +136,7 @@ const config = {
           {
             title: '社群',
             items: [
-              {label: 'GitHub', href: 'https://github.com/arthurpk1209/netfos-arcfra-hub'},
+              {label: 'GitHub', href: 'https://github.com/your-github-username/netfos-arcfra-hub'},
             ],
           },
           {
