@@ -235,7 +235,7 @@ npm run build -- --locale en`}
             <Heading as="h3">錯誤 1：baseUrl 設定錯誤</Heading>
             <p><code>baseUrl</code> 必須是 <code>/儲存庫名稱/</code>（前後都有斜線），且大小寫與 GitHub 儲存庫完全一致。</p>
             <ul>
-              <li>✅ <code>baseUrl: '/netfos-arcfra-hub/'</code></li>
+              <li>✅ <code>baseUrl: '/'</code></li>
               <li>❌ <code>baseUrl: '/netfos-arcfra-hub'</code> — 缺少結尾斜線</li>
               <li>❌ <code>baseUrl: '/Netfos-Arcfra-Hub/'</code> — 大小寫不匹配</li>
             </ul>
@@ -261,7 +261,7 @@ npm run build -- --locale en`}
   organizationName: 'john-doe',
   projectName: 'netfos-arcfra-hub',
   url: 'https://john-doe.github.io',
-  baseUrl: '/netfos-arcfra-hub/',
+  baseUrl: '/',
   trailingSlash: true,
 };`}
             </code>

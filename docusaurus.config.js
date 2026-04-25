@@ -5,7 +5,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Netfos Arcfra Hub',
   tagline: '雲端原生架構 · AI 賦能 · 容器化部署',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.png',
 
   url: 'https://your-github-username.github.io',
   baseUrl: '/',
@@ -93,7 +93,7 @@ const config = {
         title: 'Netfos Arcfra Hub',
         logo: {
           alt: 'Netfos Arcfra Hub Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo.png',
         },
         items: [
           {

@@ -77,7 +77,7 @@ export default {
   organizationName: '你的-github-使用者名稱',
   projectName: 'netfos-arcfra-hub',
   url: 'https://你的-github-使用者名稱.github.io',
-  baseUrl: '/netfos-arcfra-hub/',
+  baseUrl: '/',
   trailingSlash: true,  // ⚠️ 必須設為 true！
 };
 ```
@@ -139,7 +139,7 @@ npm run build -- --locale en
 | 錯誤訊息 | 原因 | 解決方案 |
 |---------|------|---------|
 | "Your Docusaurus site did not load properly" | `trailingSlash` 設為 false | 改為 `trailingSlash: true` |
-| CSS/圖片 404 | `baseUrl` 錯誤 | 確認格式為 `/儲存庫名稱/` |
+| CSS/圖片 404 | `baseUrl` 錯誤 | 確認格式為 `'/'` |
 | "There isn't a GitHub Pages site" | Pages Source 設定錯誤 | 確認 Source = GitHub Actions |
 
 詳細排查請參考網站內的 [部署指南](/deploy)。

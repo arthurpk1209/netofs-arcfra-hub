@@ -15,7 +15,7 @@ function Homepage() {
             <div className={styles.heroContent}>
               <div className={styles.avatarWrapper}>
                 <img
-                  src="/img/logo.svg"
+                  src="/img/logo.png"
                   alt="Netfos Arcfra Hub"
                   className={styles.avatar}
                 />

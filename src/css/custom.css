@@ -509,3 +509,334 @@ table th {
   background: rgba(59, 130, 246, 0.08);
   color: #2563eb;
 }
+
+
+/* ========== Main Wrapper (整個頁面包裝器) ========== */
+.main-wrapper {
+  min-height: 100vh;
+}
+
+[data-theme='dark'] .main-wrapper {
+  background: #0f172a;
+}
+
+[data-theme='light'] .main-wrapper {
+  background: #f8fafc;
+}
+
+/* ========== Doc Main Container (文件頁面主容器) ========== */
+.docMainContainer {
+  background: transparent;
+}
+
+[data-theme='dark'] .docMainContainer {
+  background: #0f172a;
+}
+
+[data-theme='light'] .docMainContainer {
+  background: #f8fafc;
+}
+
+/* ========== Blog Post Page (部落格文章頁面) ========== */
+.blog-post-page {
+  min-height: 100vh;
+}
+
+[data-theme='dark'] .blog-post-page {
+  background: #0f172a;
+}
+
+[data-theme='light'] .blog-post-page {
+  background: #f8fafc;
+}
+
+/* ========== Blog List Page (部落格列表頁面) ========== */
+.blog-list-page {
+  min-height: 100vh;
+}
+
+[data-theme='dark'] .blog-list-page {
+  background: #0f172a;
+}
+
+[data-theme='light'] .blog-list-page {
+  background: #f8fafc;
+}
+
+/* ========== Container (通用內容容器) ========== */
+.container {
+  background: transparent;
+}
+
+/* ========== Markdown Content (Markdown 內容區域) ========== */
+.markdown {
+  line-height: 1.7;
+}
+
+[data-theme='dark'] .markdown {
+  color: #e2e8f0;
+}
+
+[data-theme='light'] .markdown {
+  color: #334155;
+}
+
+[data-theme='dark'] .markdown h1,
+[data-theme='dark'] .markdown h2,
+[data-theme='dark'] .markdown h3,
+[data-theme='dark'] .markdown h4,
+[data-theme='dark'] .markdown h5,
+[data-theme='dark'] .markdown h6 {
+  color: #ffffff;
+}
+
+[data-theme='light'] .markdown h1,
+[data-theme='light'] .markdown h2,
+[data-theme='light'] .markdown h3,
+[data-theme='light'] .markdown h4,
+[data-theme='light'] .markdown h5,
+[data-theme='light'] .markdown h6 {
+  color: #0f172a;
+}
+
+[data-theme='dark'] .markdown p {
+  color: #cbd5e1;
+}
+
+[data-theme='light'] .markdown p {
+  color: #475569;
+}
+
+[data-theme='dark'] .markdown li {
+  color: #cbd5e1;
+}
+
+[data-theme='light'] .markdown li {
+  color: #475569;
+}
+
+[data-theme='dark'] .markdown a {
+  color: #60a5fa;
+}
+
+[data-theme='light'] .markdown a {
+  color: #2563eb;
+}
+
+/* ========== Blog Post Content (部落格文章內容) ========== */
+.blog-post-page .markdown {
+  background: transparent;
+}
+
+[data-theme='dark'] .blog-post-page .title {
+  color: #ffffff;
+}
+
+[data-theme='light'] .blog-post-page .title {
+  color: #0f172a;
+}
+
+[data-theme='dark'] .blog-post-page .authorName {
+  color: #94a3b8;
+}
+
+[data-theme='light'] .blog-post-page .authorName {
+  color: #64748b;
+}
+
+/* ========== Blog List Items (部落格列表項目) ========== */
+.blog-list-page .blog-post-item {
+  border-radius: 16px;
+  padding: 24px;
+  margin-bottom: 24px;
+  transition: all 0.3s ease;
+}
+
+[data-theme='dark'] .blog-list-page .blog-post-item {
+  background: linear-gradient(135deg, rgba(30, 58, 95, 0.6) 0%, rgba(15, 23, 42, 0.8) 100%);
+  border: 1px solid rgba(59, 130, 246, 0.2);
+}
+
+[data-theme='light'] .blog-list-page .blog-post-item {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.9) 0%, rgba(241, 245, 249, 0.9) 100%);
+  border: 1px solid rgba(59, 130, 246, 0.15);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+}
+
+[data-theme='dark'] .blog-list-page .blog-post-title {
+  color: #ffffff;
+}
+
+[data-theme='light'] .blog-list-page .blog-post-title {
+  color: #0f172a;
+}
+
+[data-theme='dark'] .blog-list-page .blog-post-description {
+  color: #cbd5e1;
+}
+
+[data-theme='light'] .blog-list-page .blog-post-description {
+  color: #475569;
+}
+
+/* ========== Doc Page Container (文件頁面容器) ========== */
+.docs-wrapper {
+  min-height: 100vh;
+}
+
+[data-theme='dark'] .docs-wrapper {
+  background: #0f172a;
+}
+
+[data-theme='light'] .docs-wrapper {
+  background: #f8fafc;
+}
+
+/* ========== Sidebar (側邊欄背景) ========== */
+.theme-doc-sidebar-container {
+  border-right: 1px solid;
+}
+
+[data-theme='dark'] .theme-doc-sidebar-container {
+  background: #0f172a;
+  border-color: rgba(59, 130, 246, 0.1);
+}
+
+[data-theme='light'] .theme-doc-sidebar-container {
+  background: #f8fafc;
+  border-color: rgba(59, 130, 246, 0.15);
+}
+
+/* ========== TOC (目錄) ========== */
+.theme-doc-toc-desktop {
+  border-left: 1px solid;
+}
+
+[data-theme='dark'] .theme-doc-toc-desktop {
+  border-color: rgba(59, 130, 246, 0.1);
+}
+
+[data-theme='light'] .theme-doc-toc-desktop {
+  border-color: rgba(59, 130, 246, 0.15);
+}
+
+[data-theme='dark'] .table-of-contents {
+  background: transparent;
+}
+
+[data-theme='light'] .table-of-contents {
+  background: transparent;
+}
+
+[data-theme='dark'] .table-of-contents__link {
+  color: #94a3b8;
+}
+
+[data-theme='light'] .table-of-contents__link {
+  color: #64748b;
+}
+
+[data-theme='dark'] .table-of-contents__link:hover,
+[data-theme='dark'] .table-of-contents__link--active {
+  color: #60a5fa;
+}
+
+[data-theme='light'] .table-of-contents__link:hover,
+[data-theme='light'] .table-of-contents__link--active {
+  color: #2563eb;
+}
+
+/* ========== Pagination (分頁導航) ========== */
+.pagination-nav {
+  padding-top: 2rem;
+  border-top: 1px solid;
+}
+
+[data-theme='dark'] .pagination-nav {
+  border-color: rgba(59, 130, 246, 0.1);
+}
+
+[data-theme='light'] .pagination-nav {
+  border-color: rgba(59, 130, 246, 0.15);
+}
+
+/* ========== Tags (標籤) ========== */
+.tag {
+  border-radius: 20px;
+  padding: 4px 12px;
+  font-size: 0.875rem;
+  transition: all 0.2s;
+}
+
+[data-theme='dark'] .tag {
+  background: rgba(59, 130, 246, 0.15);
+  color: #60a5fa;
+  border: 1px solid rgba(59, 130, 246, 0.3);
+}
+
+[data-theme='light'] .tag {
+  background: rgba(59, 130, 246, 0.1);
+  color: #2563eb;
+  border: 1px solid rgba(59, 130, 246, 0.2);
+}
+
+[data-theme='dark'] .tag:hover {
+  background: rgba(59, 130, 246, 0.25);
+}
+
+[data-theme='light'] .tag:hover {
+  background: rgba(59, 130, 246, 0.2);
+}
+
+/* ========== Reading Time (閱讀時間) ========== */
+[data-theme='dark'] .reading-time {
+  color: #94a3b8;
+}
+
+[data-theme='light'] .reading-time {
+  color: #64748b;
+}
+
+/* ========== Edit This Page (編輯此頁) ========== */
+[data-theme='dark'] .theme-edit-this-page {
+  color: #94a3b8;
+}
+
+[data-theme='light'] .theme-edit-this-page {
+  color: #64748b;
+}
+
+[data-theme='dark'] .theme-edit-this-page:hover {
+  color: #60a5fa;
+}
+
+[data-theme='light'] .theme-edit-this-page:hover {
+  color: #2563eb;
+}
+
+/* ========== Last Updated (最後更新時間) ========== */
+[data-theme='dark'] .theme-last-updated {
+  color: #94a3b8;
+}
+
+[data-theme='light'] .theme-last-updated {
+  color: #64748b;
+}
+
+/* ========== Doc Tag Badge (文件標籤徽章) ========== */
+.badge {
+  border-radius: 4px;
+  padding: 2px 8px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+[data-theme='dark'] .badge {
+  background: rgba(59, 130, 246, 0.2);
+  color: #60a5fa;
+}
+
+[data-theme='light'] .badge {
+  background: rgba(59, 130, 246, 0.15);
+  color: #2563eb;
+}
