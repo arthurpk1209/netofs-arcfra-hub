@@ -15,7 +15,7 @@ const config = {
   organizationName: 'arthurpk1209',
   projectName: 'netfos-arcfra-hub',
   deploymentBranch: 'gh-pages',
-  trailingSlash: false,
+  trailingSlash: true,
 
   onBrokenLinks: 'throw',
   onBrokenAnchors: 'warn',
