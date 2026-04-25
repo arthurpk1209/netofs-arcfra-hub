@@ -8,7 +8,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   url: 'https://your-github-username.github.io',
-  baseUrl: '/netfos-arcfra-hub/',
+  baseUrl: '/',
   organizationName: 'your-github-username',
   projectName: 'netfos-arcfra-hub',
   deploymentBranch: 'gh-pages',
