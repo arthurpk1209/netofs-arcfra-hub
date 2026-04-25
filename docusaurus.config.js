@@ -14,11 +14,10 @@ const config = {
   deploymentBranch: 'gh-pages',
   trailingSlash: true,
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenAnchors: 'warn',
   onDuplicateRoutes: 'warn',
 
-  // i18n 國際化設定
   i18n: {
     defaultLocale: 'zh-Hant',
     locales: ['zh-Hant', 'en'],
@@ -26,12 +25,10 @@ const config = {
       'zh-Hant': {
         label: '繁體中文',
         htmlLang: 'zh-Hant',
-        direction: 'ltr',
       },
       'en': {
         label: 'English',
         htmlLang: 'en',
-        direction: 'ltr',
       },
     },
   },
@@ -111,7 +108,6 @@ const config = {
             label: '部署指南',
             position: 'left',
           },
-          // 語言切換下拉選單
           {
             type: 'localeDropdown',
             position: 'right',

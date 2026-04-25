@@ -136,7 +136,6 @@ npm run build -- --locale en
 
 ## 🔧 部署失敗排查
 
-<<<<<<< HEAD
 | 錯誤訊息 | 原因 | 解決方案 |
 |---------|------|---------|
 | "Your Docusaurus site did not load properly" | `trailingSlash` 設為 false | 改為 `trailingSlash: true` |
@@ -144,11 +143,6 @@ npm run build -- --locale en
 | "There isn't a GitHub Pages site" | Pages Source 設定錯誤 | 確認 Source = GitHub Actions |
 
 詳細排查請參考網站內的 [部署指南](/deploy)。
-=======
-- 🌙 **深色主題** — 參考深色專業風格
-- ✨ **玻璃擬態卡片** — 毛玻璃效果
-- 🎯 **漸層文字** — 藍白漸層標題
->>>>>>> 45ceab58486e6a9de5b991b7708c6b585a67f44b
 
 ## 技術棧
 
